@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Hello, World!");
+var manager = new UserManager();
+manager.AddUser("test");
+Console.WriteLine(manager.RemoveUser("test")); // В консоли должен вывести True
