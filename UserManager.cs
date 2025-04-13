@@ -6,4 +6,5 @@
     {
         _users.Add(username);
     }
+    private int _count = 0;
 }
